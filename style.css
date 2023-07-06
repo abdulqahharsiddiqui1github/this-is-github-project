@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+span{
+    /* font-size: 30px; */
+    color: rgba(29, 214, 39, 0.943);
+    font-weight: 800;
+}
+/* common code starts from here */
+.image-width{
+    width: 200px;
+}
+.btn{
+    padding: 10px;
+    width: 150px;
+    margin-top: 10px;
+    border: none;
+    font-size: large;
+    font-weight: bolder;
+    text-transform: capitalize;
+    color: rgba(23, 23, 23, 0.676);
+    background-color: rgb(162, 159, 159);
+    /* transition: 1s all; */
+    
+}
+.btn:hover{
+    /* background-color: transparent; */
+    color: #fff;
+    /* border: 1px solid; */
+    background-color: red;
+}
+.a{
+    background: transparent;
+}
+P{
+    font-size: 35px;
+}
+hr{
+    border: 2px solid;
+    border-bottom: none;
+    width: 50%;
+    margin: auto auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.hover{
+    box-shadow: 0 0 5px 5px black;
+}
+/* common code starts from here */
+
+/* navbar style starts from here */
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    background-color: gray;
+    padding: 25px;
+}
+.navbar__div1{
+    
+}
+.navbar__div1-logo{
+    text-transform:uppercase;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.navbar__div1-logo b{
+    text-transform:uppercase;
+    font-size: 30px;
+    color: rgba(206, 76, 47, 0.866);
+}
+.navbar__div2-list{
+    display: flex;
+    list-style: none;
+}
+.navbar__div2-list li a{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    margin-right: 30px;
+}
+/* navbar style starts from here */
+
+/* banner style starts from here */
+.banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(54, 54, 54) 35%, rgb(112, 113, 113) 100%);
+}
+.banner__div1{
+    width: 50%;
+   font-size: 30px;
+   color: white;
+}
+.banner__div2{
+
+}
+/* banner style end here */
+
+/* about style start form here */
+.about_section{
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+    background-color: ghostwhite;
+}
+.about_sectin__description{
+    width: 70%;
+    margin: auto;
+    background-color: blueviolet;
+    padding: 10px;
+}
+.about_sectin__description:hover{
+    box-shadow: 0 0 5px 5px black;
+}
+.about-h1{
+    text-transform: uppercase;
+    color: rgba(215, 215, 215, 0.732);
+}
+.about{
+    display: flex;
+    justify-content: space-around;
+}
+.about__div1{
+    width: 40%;
+    background-color: blue;
+    height: 300px;
+    margin: 30px 0;
+}
+.about__div1:hover{
+    box-shadow: 0 0 5px 5px black;
+}
+.about__div2{
+    width: 40%;
+    text-align: left;
+    background-color: blue;
+    padding: 20px;
+    margin: 30px 0;
+}
+.about__div2:hover{
+    box-shadow: 0 0 5px 5px black;
+}
+/* about style end here */
+
+/* skill style start form here */
+.skill-section{
+    text-align: center;
+    padding: 10px;
+    height: 100vh;
+    margin-top: 200px;
+}
+.skill-section h2{
+    font-size: 50px;
+}
+.skill{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    padding: 30px;
+}
+.skill-div1{
+    width: 30%;
+    background-color: tomato;
+    margin: 10px;
+    padding: 10px;
+    height: 600px;
+    margin: auto auto;
+ 
+}
+.skill-div1{
+    box-shadow: 10px 10px 10px 10px brown;
+}
+.skill-div1-img{
+    border: 3px solid rgba(244, 244, 244, 0.785);
+    padding: 10px;
+    border-radius: 50%;
+}
+/* skill style end here */
